@@ -133,7 +133,7 @@ function parseImgurLink() {
     if (headerLink)
     {
         // When the header link isn't conforming to the format, let the user know.
-        if (!(headerLink.endsWith('.png') || headerLink.endsWith('.jpeg'))) {
+        if (!(headerLink.endsWith('.png') || headerLink.endsWith('.jpeg')) || headerLink.endsWith('.jpg')) {
             showError("The provided Imgur link isn't valid. Double check that it has .jpeg or .png at the end.");
             return;
         }
