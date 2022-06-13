@@ -46,7 +46,7 @@ const TPLTVAR_QUESTION_ANSWER_CONTENT = '$QUESTION_ANSWER_CONTENT$'; // The answ
 // The main template is the parent template; individual question templates are parsed
 // and then embedded within this template.
 const MAIN_TEMPLATE = `[divbox=white]
-[center][img]https://i.imgur.com/MgQNgya.jpg[/img][/center] 
+[recheader][/recheader] 
 
 [divbox=${TPLTVAR_DIVBOX_COLOR}][color=white][center][size=150][font=AmerType Md BT]INTERVIEW - ${TPLTVAR_INTERVIEWEE_NAME}[/font][/size][/center][/color][/divbox]
 
