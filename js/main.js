@@ -75,7 +75,7 @@ let g_HasError = false;
 const g_ErrorDiv = document.getElementById('div-error');
 
 // Default colors
-const g_DefaultDivboxColor  = '#302e42'; // Some shade of red
+const g_DefaultDivboxColor  = '#302e42'; // Some shade of blue!
 const g_DefaultRoleplayColor = '#AD82CE'; // Some shade of purple
 
 // Form data
